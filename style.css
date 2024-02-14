@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    width: 100%;
+    height: 100px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.text{
+    width: 50%;
+    display: flex;
+    gap: 100px;
+}
+.logo{
+    width: 30%;
+    display: flex;
+gap: 100px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+ul>li{
+    list-style: none;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.box{
+    width: 100%;
+    display: flex;
+    margin-bottom: 100px;
+}
+button{
+    background-color: #2BD0D0;
+    color: azure;
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+}
+.text>img{
+    width: 100px;
+    height: 30px;
+}
+
+.we>h1{
+    color: black;
+    font-family: poppins;
+    
+font-family: 'Poppins', sans-serif;
+
+}
+.we>p{
+    column-rule-color: #9E9AA8;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+
+}
+p{
+    font-family: 'Poppins', sans-serif;
+
+}
+.we{
+    width: 500px;
+    /* display: flex; */
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.area{
+    width: 50%;
+    margin-left: 200px;
+}
+.main{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(82, 36, 36);
+    color:white ;
+/* display: inline; */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.imge{
+    background-image: url(./assets/img/Path\ 2.png);
+    width: 70%;
+    height: 168px;
+    display: flex;
+    justify-content: center;
+align-items: center;
+gap: 30px;
+position: absolute;
+top: 600px;
+}
+input{
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    color: #9E9AA8;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+
+}
+.contain{
+    width: 100%;
+    height: 100px;
+         color: white;
+         background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tet a{
+color: white;
+}
+.contain img{
+    width: 400px;
+}
+.tet>img{
+    width: 400px;
+    height: 30px;
+}
+.tet{
+    width: 50%;
+    display: flex;
+    gap: 100px;
+}
